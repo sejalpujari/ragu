@@ -3,7 +3,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/app/**",
+      "src": "package.json",          // ← Change this: point to package.json (Next.js root)
       "use": "@vercel/next"
     },
     {
