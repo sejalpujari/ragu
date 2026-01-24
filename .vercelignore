@@ -1,0 +1,10 @@
+# Large binaries / media you don't need deployed
+*.mp4
+*.mov
+*.zip
+*.tar
+*.gz
+*.pdf   # if huge
+node_modules/
+.next/cache/   # usually safe, but can bloat
+public/large-folder/   # ← adjust to your actual large dir
