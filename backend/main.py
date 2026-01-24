@@ -40,6 +40,8 @@ async def rag_debug(req: RAGRequest):
             query=req.query,
             chunk_size=req.chunk_size,
             chunk_overlap=req.chunk_overlap,
+            top_k=req.top_k,
+
         )
 
         # Prepare preview data (avoid sending huge arrays)
