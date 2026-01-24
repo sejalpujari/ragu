@@ -3,7 +3,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",          // ← Change this: point to package.json (Next.js root)
+      "src": "package.json",
       "use": "@vercel/next"
     },
     {
@@ -15,10 +15,6 @@
     {
       "src": "/api(/.*)?",
       "dest": "/api/index.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
     }
   ]
 }
