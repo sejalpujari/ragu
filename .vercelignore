@@ -8,3 +8,7 @@
 node_modules/
 .next/cache/   # usually safe, but can bloat
 public/large-folder/   # ← adjust to your actual large dir
+.venv/
+**/__pycache__/
+**/*.pyc
+.cache/   # huggingface cache
